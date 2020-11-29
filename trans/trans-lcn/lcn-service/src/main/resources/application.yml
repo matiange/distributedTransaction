@@ -1,0 +1,18 @@
+server:
+  port: 5003
+spring:
+  application:
+    name: lcn-service
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/enjoy2?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:8070
+zookeeper:
+  url: zookeeper://192.168.42.111:2181
+dubbo:
+  name: lcn-service
+  port: 20881

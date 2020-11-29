@@ -1,0 +1,5 @@
+# Project exclude paths
+/trans/trans-lcn/lcn-busi/target/
+/trans/trans-lcn/lcn-service/target/
+/trans/trans-lcn/lcn-tm/target/
+/trans/trans-xa/target/

@@ -1,0 +1,18 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    druid:
+      dataSourceOne:
+        url: jdbc:mysql://localhost:3306/enjoy?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+        username: root
+        password: 123456
+      dataSourceTwo:
+        url: jdbc:mysql://localhost:3306/enjoy2?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+        username: root
+        password: 123456
+  #jta相关参数配置
+  jta:
+    log-dir: classpath:tx-logs
+    transaction-manager-id: txManager
+  
